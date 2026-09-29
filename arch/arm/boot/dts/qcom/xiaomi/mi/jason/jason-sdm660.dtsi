@@ -62,7 +62,8 @@
 	mtp_batterydata: qcom,battery-data {
 		qcom,batt-id-range-pct = <15>;
 		#include "batterydata-c8-coslight-3500mAh.dtsi"
-		#include "batterydata-c8-atl-3500mAh.dtsi"
+		// #include "batterydata-c8-atl-3500mAh.dtsi"
+		#include "batterydata-c8-atl-4000mAh.dtsi"
 		#include "batterydata-itech-3000mah.dtsi"
 	};
 };
